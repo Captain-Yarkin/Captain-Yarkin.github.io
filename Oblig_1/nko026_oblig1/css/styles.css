@@ -1,0 +1,123 @@
+        /* CSS for the body */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f1f1f1;
+        }
+
+        /* CSS for the header */
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* CSS for the navigation bar */
+        nav {
+            text-align: center;
+            background-color: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #111;
+        }
+
+        /* CSS for the section */
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* CSS for the table */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        /* CSS for the images */
+        img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+        }
+
+        /* CSS for the footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        .product_container  {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-auto-rows: minmax(300px, auto);
+            gap: 20px;
+            justify-items: center;
+            align-items: start;
+            margin: 20px;
+        }
+
+        .product {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .divider {
+            width: 100%;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        
+        .title_page {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .text_box {
+            background-color: #ffffff;
+            padding: 30px;
+            margin: 30px;
+            text-align: center;
+        }
+
+        .info_image {
+            padding-top: 80px;
+            justify-content: center;
+            text-align: center;
+
+        }
