@@ -5,14 +5,29 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-
         }
 
-        /* CSS for the header */
-        h1 {
+        a {
+            text-decoration: none;  /* Remove the underline from the anchor tag */
+            display: block;
+        }
+        
+        a h1 {
+            color: black;  /* Setting the color to black */
+            display: block;
             text-align: center;
             padding: 20px;
+            margin: 0;
         }
+        
+        a:hover h1,
+        a:active h1,
+        a:focus h1 {
+            color: black;  /* Ensuring the color remains black even on hover, active, or focus states */
+        }
+        
+        
+        
 
         /* CSS for the navigation bar */
         nav {
@@ -124,4 +139,35 @@
             justify-content: center;
             text-align: center;
 
+        }
+        /* Styles for .product-detail */
+        .product-detail {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .product-detail img {
+            margin-bottom: 20px;
+            max-width: 300px; /* You can adjust this value based on the desired maximum width */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .product-detail p {
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .product-detail h2 {
+            margin-top: 0;
+            margin-bottom: 20px; /* Adjust this value based on your design needs */
+            text-align: center; /* This will center the text horizontally */
+            color: #444;
         }
